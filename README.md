@@ -72,3 +72,10 @@
 - \<meta property="og:type" content="website"\>
 - \<meta property="og:site_name" content="XXX - Official Website"\>
 - ...
+
+## JS获取浏览器主题颜色
+```
+window.matchMedia("(prefers-color-scheme: dark)")
+window.matchMedia("(prefers-color-scheme: light)")
+
+```
