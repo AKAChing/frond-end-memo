@@ -53,3 +53,22 @@
     }
   })
 ```
+
+## iconfont无法更改颜色的问题
+``` css
+* {
+  transition: all .2s;
+}
+
+.iconfont{
+  color: red; // 无效
+}
+```
+## twitter之类的社交网站分享卡片所需的meta标签  ([Open Graph Protocol](https://www.ogp.me/))
+- \<meta property="og:title" content="this is my title"\>
+- \<meta property="og:description" content="what a beautiful page..."\>
+- \<meta property="og:url" content="https://www.example.com"\>
+- \<meta property="og:image" content="https://path-to-img.png"\> (推荐像素1200*630)
+- \<meta property="og:type" content="website"\>
+- \<meta property="og:site_name" content="XXX - Official Website"\>
+- ...
